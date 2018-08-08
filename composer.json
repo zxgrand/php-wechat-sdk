@@ -1,0 +1,30 @@
+{
+  "type": "library",
+  "name": "zxgrand/php-wechat-sdk",
+  "homepage": "https://github.com/zxgrand/php-wechat-sdk",
+  "description": "WeChat platform and WeChat payment development tools",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zxgrand",
+      "email": "zxgrand@sina.cn",
+      "homepage": "http://www.bj-soft.com"
+    }
+  ],
+  "keywords": [
+    "WeChat",
+    "WeChatPay",
+    "WeChatDeveloper"
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "WeChat\\": "WeChat",
+      "WeMini\\": "WechatMini"
+    }
+  }
+}
